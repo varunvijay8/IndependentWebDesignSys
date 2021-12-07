@@ -1,9 +1,15 @@
 nav {
     background-color: black;
+    color: white;
     height: 50px;
+    width: 100%;
+    margin: 5px auto;
+    font-size: 25px;
+    padding-top: 15px;
+    text-align: center;
 }
 
-a:link {
+/* a:link {
     text-decoration: none;
 }
 
@@ -18,7 +24,7 @@ nav li {
     display: inline-block;
     width: 100px;
     font-size:larger;
-}
+} */
 
 #Header,
 #Colors,
@@ -43,13 +49,13 @@ nav li {
     float: right;
 }
 
-#Header,
-#Footer {
+#Fonts,
+#Colors {
     background-color: #A8A0A0;
 }
 
-#Fonts,
-#Colors {
+#Header,
+#Footer {
     background-color: #DAD2D2;
 }
 
